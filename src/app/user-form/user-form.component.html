@@ -1,0 +1,16 @@
+<form (ngSubmit)="onSubmit(Form)" #Form="ngForm" class="p-4 space-y-4">
+    <div>
+      <label for="userName" class="block text-gray-700">User Name:</label>
+      <input id="userName" name="userName" ngModel required class="border p-2 w-full"/>
+    </div>
+    <div>
+      <label for="workoutType" class="block text-gray-700">Workout Type:</label>
+      <input id="workoutType" name="workoutType" ngModel required class="border p-2 w-full"/>
+    </div>
+    <div>
+      <label for="minutes" class="block text-gray-700">Workout Minutes:</label>
+      <input id="minutes" name="minutes" type="number" ngModel required class="border p-2 w-full"/>
+    </div>
+    <button type="submit" class="bg-blue-500 text-white p-2 rounded">Add Workout</button>
+  </form>
+  
