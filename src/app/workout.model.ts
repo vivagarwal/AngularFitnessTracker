@@ -3,6 +3,5 @@ export interface Workout {
     userName: string;
     workoutType: string;
     minutes: number;
-    date: Date;
   }
   
